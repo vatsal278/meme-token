@@ -16,8 +16,12 @@ function App() {
 
   return (
     <div className="bg-black h-screen overflow-hidden">
+      
       <VideoPlayer show={!showLogo} />
+      <div className='mt-5'>
+
       <Logo show={showLogo} logoSrc="/nutflix.png" /> {/* Update with your actual logo filename */}
+      </div>
 
       <style>
         {`
