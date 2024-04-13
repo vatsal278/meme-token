@@ -28,17 +28,17 @@ const SocialMediaButtons = ({ handleTilt }) => {
         Tickled by Balls
       </button>
       {showImage && (
-        <div className="mt-4 w-100 h-100 relative">
+        <div className=" w-100 h-100 relative">
           <img src="/Asset 1.png" alt="Ball Image" className="w-full h-full object-cover" />
         </div>
       )}
       {showImage && (
-        <div className="mt-2">
+        <div className="">
           <a href="https://t.me/your_telegram_link" target="_blank" rel="noopener noreferrer" className="mx-2">
-            <button className="text-white text-3xl font-bold py-2 px-4 rounded">Telegram</button>
+            <button className="text-white text-lg font-bold py-2 px-4 rounded">Telegram</button>
           </a>
           <a href="https://twitter.com/your_twitter_link" target="_blank" rel="noopener noreferrer" className="mx-2">
-            <button className="text-white text-3xl font-bold py-2 px-4 rounded">Twitter</button>
+            <button className="text-white text-lg font-bold py-2 px-4 rounded">Twitter</button>
           </a>
         </div>
       )}

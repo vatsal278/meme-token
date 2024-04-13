@@ -3,10 +3,8 @@ import SocialMediaButtons from './SocialMediaButtons'; // Import the SocialMedia
 
 const Logo = ({ show, logoSrc }) => {
   const handleTilt = () => {
-    const logoElement = document.querySelector('.logo-img');
-    if (logoElement) {
-      logoElement.classList.add('transform', 'rotate-3', 'transition-transform'); // Add Tailwind classes for transformation and transition
-    }
+    // Logic to tilt the logo (e.g., set state or perform any action)
+    console.log('Logo tilted!');
   };
 
   return (
@@ -14,7 +12,7 @@ const Logo = ({ show, logoSrc }) => {
       <img
         src={logoSrc}
         alt="Logo"
-        className="w-64 h-auto mb-8 logo-img cursor-pointer" // Add cursor-pointer to indicate it's clickable
+        className="w-64 h-auto mb-8 max-w-full max-h-full"
         onClick={handleTilt} // Call handleTilt when the logo is clicked
       />
       <SocialMediaButtons handleTilt={handleTilt} />
