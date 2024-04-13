@@ -10,6 +10,7 @@ const VideoPlayer = ({ show }) => {
         muted
         className="max-w-full max-h-full"
         controls={false}
+        style={{ width: '100vw', height: '100vh', objectFit: 'cover' }} // Zoom in on smaller devices
       />
     </div>
   );
