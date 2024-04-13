@@ -1,10 +1,11 @@
-import React from 'react';
+import React, { useState } from 'react';
 import SocialMediaButtons from './SocialMediaButtons'; // Import the SocialMediaButtons component
 
 const Logo = ({ show, logoSrc }) => {
+  const [isTilted, setIsTilted] = useState(false);
+
   const handleTilt = () => {
-    // Logic to tilt the logo (e.g., set state or perform any action)
-    console.log('Logo tilted!');
+    setIsTilted(!isTilted); // Toggle the isTilted state
   };
 
   return (
@@ -12,7 +13,7 @@ const Logo = ({ show, logoSrc }) => {
       <img
         src={logoSrc}
         alt="Logo"
-        className="w-64 h-auto mb-8 max-w-full max-h-full"
+        className={`w-64 mt-6 h-auto mb-8 max-w-full max-h-full transform ${isTilted ? 'rotate-12' : ''}`}
         onClick={handleTilt} // Call handleTilt when the logo is clicked
       />
       <SocialMediaButtons handleTilt={handleTilt} />
