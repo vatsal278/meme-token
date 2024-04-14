@@ -15,10 +15,10 @@ function App() {
   }, []);
 
   return (
-    <div className="bg-black h-screen overflow-hidden">
+    <div className="bg-black h-screen overflow-hidden text-comic-neue ">
       
       <VideoPlayer show={!showLogo} />
-      <div className='mt-5'>
+      <div className='mt-10'>
 
       <Logo show={showLogo} logoSrc="/nutflix.png" /> {/* Update with your actual logo filename */}
       </div>

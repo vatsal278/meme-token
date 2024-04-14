@@ -8,6 +8,8 @@ module.exports = {
     },
     maxHeight: {
       'full': '100%',
+    },fontFamily: {
+      sans: ['Comic Neue', 'sans-serif'],
     },},
   },
   plugins: [],
