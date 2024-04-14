@@ -25,7 +25,7 @@ const SocialMediaButtons = ({ handleTilt }) => {
   return (
     <div className="flex flex-col items-center mt-8 relative overflow-y-auto"> {/* Added overflow-y-auto */}
       <button onClick={() => { handleShowImage(); handleShowParagraph(); handleAudioPlay(); }} className="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded">
-        Tickled by Balls
+        Tickle My Balls
       </button>
       {showImage && (
         <div className="w-100 h-100 relative">
