@@ -18,10 +18,8 @@ function App() {
     <div className="bg-black h-screen overflow-hidden text-comic-neue ">
       
       <VideoPlayer show={!showLogo} />
-      <div className='mt-10'>
 
       <Logo show={showLogo} logoSrc="/nutflix.png" /> {/* Update with your actual logo filename */}
-      </div>
 
       <style>
         {`
