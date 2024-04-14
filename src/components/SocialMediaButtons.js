@@ -28,7 +28,7 @@ const SocialMediaButtons = ({ handleTilt }) => {
         Tickled by Balls
       </button>
       {showImage && (
-        <div className=" w-100 h-100 relative">
+        <div className="w-100 h-100 relative">
           <img src="/Asset 1.png" alt="Ball Image" className="w-full h-full object-cover" />
         </div>
       )}
@@ -44,11 +44,9 @@ const SocialMediaButtons = ({ handleTilt }) => {
       )}
       {showParagraph && (
         <div className="max-w-sm sm:max-w-md md:max-w-lg lg:max-w-xl xl:max-w-2xl">
-          
-            <p className="text-red-600 text-center text-lg font-bold">Forget boring old movies, Nutflix is all about Nutz - there's 8 billion of them! With every TUDUM (that awesome Nutflix sound), Nutz get more control, becoming GigaChadz!! Lost onchain in this Woke Culture!! Pepe the meme master, Brett the coding queen, and Andy the awesome gamer were lost. But guess what saved them? Their Nutz power! Pepe powered its community with Nutz, Brett's community rocked Nutflix, and Andy welcomed everyone. Together, they built a giant Nutz community with a special sound called TUDUM. This Nutz community became super famous! Nutflix realized Nutz were awesome and let them influence everything. The TUDUM sound became like a calling for Nutz, giving them a say in what happens. Pepe, Brett, and Andy became super legends - Harnessing TUDUM But it's not just about them. The TUDUM sound isn't just on screens, it's a feeling in all Nutz hearts. The world is finally waking up - lets unite with 8 billion Nutz, all powered by TUDUM!</p>
-            <p className="text-red-600 text-center text-xl font-bold mt-4">Untold Stories from the Book of Meme, presented by TUDUM, coming soon on Nutflix</p>
-          </div>
-        
+          <p className="text-red-600 text-center text-lg font-bold">Forget boring old movies, Nutflix is all about Nutz - there's 8 billion of them! With every TUDUM (that awesome Nutflix sound), Nutz get more control, becoming GigaChadz!! Lost onchain in this Woke Culture!! Pepe the meme master, Brett the coding queen, and Andy the awesome gamer were lost. But guess what saved them? Their Nutz power! Pepe powered its community with Nutz, Brett's community rocked Nutflix, and Andy welcomed everyone. Together, they built a giant Nutz community with a special sound called TUDUM. This Nutz community became super famous! Nutflix realized Nutz were awesome and let them influence everything. The TUDUM sound became like a calling for Nutz, giving them a say in what happens. Pepe, Brett, and Andy became super legends - Harnessing TUDUM But it's not just about them. The TUDUM sound isn't just on screens, it's a feeling in all Nutz hearts. The world is finally waking up - lets unite with 8 billion Nutz, all powered by TUDUM!</p>
+          <p className="text-red-600 text-center text-xl font-bold mt-4">Untold Stories from the Book of Meme, presented by TUDUM, coming soon on Nutflix</p>
+        </div>
       )}
       {/* Audio Player */}
       {audioPlaying && (
