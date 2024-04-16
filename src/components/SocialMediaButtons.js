@@ -34,15 +34,15 @@ const SocialMediaButtons = ({ handleTilt }) => {
       )}
       {showImage && (
         <div className="">
-          <a href="https://t.me/your_telegram_link" target="_blank" rel="noopener noreferrer" className="mx-2">
+          <a href="https://t.me/TADUMPORTAL" target="_blank" rel="noopener noreferrer" className="mx-2">
             <button className="text-white text-lg font-bold py-2 px-4 rounded">Telegram</button>
           </a>
-          <a href="https://twitter.com/your_twitter_link" target="_blank" rel="noopener noreferrer" className="mx-2">
+          <a href="https://twitter.com/tudumfornutz" target="_blank" rel="noopener noreferrer" className="mx-2">
             <button className="text-white text-lg font-bold py-2 px-4 rounded">Twitter</button>
           </a>
           {/* New button "Contract Address" */}
           <div className='flex flex-col'> 
-            <a href="https://twitter.com/your_twitter_link" target="_blank" rel="noopener noreferrer" className="mx-2">
+            <a href="https://t.me/TADUMPORTAL" target="_blank" rel="noopener noreferrer" className="mx-2">
               <button className="bg-red-400 hover:bg-red-600 text-white font-bold py-4 px-8 rounded mt-4">Contract Address</button>
             </a>
           </div>
